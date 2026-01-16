@@ -1,0 +1,493 @@
+.top-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Logo PLACE */
+.logo-place {
+    width: 3cm;
+    height: 3cm;
+    border-radius: 50%;
+    /* Circle shape */
+    border: 3px solid #003366;
+    /* Dark blue border */
+    margin-right: 15px;
+    /* Space from text */
+    background-color: #f2f2f2;
+    /* Temporary background */
+
+    /* Jab image lagao ge, yeh kaam ayega */
+    background-size: cover;
+    background-position: top center right;
+    background-repeat: no-repeat;
+}
+
+/* Heading & para */
+.top-text h1 {
+    margin: 0;
+    color: #003366;
+}
+
+.top-text p {
+    margin: 5px 0 0 0;
+    color: #444;
+}
+
+/* Logo on left corner */
+.top-logo {
+    width: 3cm;
+    height: 3cm;
+    object-fit: contain;
+    /* Logo clear rahe */
+    margin-right: 15px;
+    /* Space between logo & text */
+}
+
+/* Heading & para */
+.top-text h1 {
+    margin: 0;
+    color: #003366;
+}
+
+.top-text p {
+    margin: 5px 0 0 0;
+    color: #333;
+}
+
+.logo-place {
+    background-image: url("college-logo.jpg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    background: url("college-bg.jpg") no-repeat center center/cover;
+}
+
+/* Hero Section */
+.hero {
+    background: rgba(0, 232, 248, 0.849);
+    color: rgb(244, 248, 0);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.para {
+    color: black;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Navbar */
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Left text + right buttons */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003366;
+    /* Dark blue navbar */
+}
+
+/* Left paragraph inside navbar */
+.nav-left-text {
+    color: #00ffb3;
+    /* Bright color, yellow */
+    font-size: 16px;
+    /* Bigger text */
+
+    margin: 10;
+    /* Remove default margin */
+    letter-spacing: 1px;
+    text-transform: uppercase px;
+    ;
+    /* Optional uppercase */
+}
+
+/* Nav buttons */
+.nav-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-buttons a:hover {
+    color: #ffdd00;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #003366;
+}
+
+.navbar button {
+    padding: 10px 18px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar button:hover {
+    background: #ffcc00;
+}
+
+/* Content Box */
+.content-box {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* College Name above Logo */
+.hasham {
+    text-align: center;
+    /* Center text */
+    color: #e6ff04;
+    background-color: #0e940a;
+    /* Dark Blue */
+    padding: 15px 25px;
+    /* Comfortable padding */
+    border-radius: 15px;
+    /* Rounded corners */
+    font-size: 28px;
+    /* Thoda bada font */
+    font-weight: bold;
+    font-size: 28px;
+    /* Large font */
+    font-weight: 700;
+    /* Bold */
+    margin-bottom: 10px;
+    /* Space below */
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+    /* Spacing between letters */
+    text-transform: uppercase;
+    /* Uppercase letters */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for pop */
+}
+
+/* Logo Container */
+.logo-container {
+    width: 100px;
+    /* Container width */
+    height: 100px;
+    /* Container height */
+
+    margin: 20px auto;
+    /* Center horizontally */
+    position: relative;
+    /* Required for logo positioning if needed */
+    border-radius: 30px;
+    /* Optional: circular container */
+    overflow: hidden;
+    /* Prevent logo overflow */
+
+    /* Subtle shadow */
+
+    /* Optional background */
+}
+
+.logo1 {
+    height: 130px;
+    width: 40px;
+}
+
+.logo {
+    height: 100px;
+    width: 40px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+    /* left | center | right */
+    align-items: center;
+    padding: 20px;
+}
+
+/* All logos same size */
+.logo-row .logo {
+    width: 5cm;
+    height: 5cm;
+    object-fit: contain;
+    /* logo clear rahe */
+}
+
+/* Logo Image */
+.logo-container .logo-img {
+    width: 100%;
+    /* Full container width */
+    height: 100%;
+    /* Full container height */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+    display: block;
+}
+
+
+/* Table */
+/* Table Section Heading */
+.table-section h2 {
+    text-align: center;
+    /* Center heading */
+    background-color: #0e940a;
+    /* Dark blue background */
+    color: rgb(238, 234, 0);
+    /* White text */
+    padding: 15px 25px;
+    /* Comfortable padding */
+    border-radius: 15px;
+    /* Rounded corners */
+    font-size: 28px;
+    /* Thoda bada font */
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* Space below heading */
+    letter-spacing: 1px;
+    /* Letters thode spaced */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+}
+
+.table-section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #003366;
+    color: white;
+}
+
+/* Form Section Styling */
+.form-section {
+    background: rgba(10, 230, 238, 0.95);
+    /* Light transparent background */
+    margin: 20px auto;
+    padding: 30px 20px;
+    border-radius: 12px;
+    max-width: 800px;
+    /* Center and limit width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading (Online Registration) */
+.h2 {
+    text-align: center;
+    color: #fbff02;
+    background-color: #0e940a;
+    padding: 10px 15px;
+    /* Comfortable padding */
+    border-radius: 15px;
+    /* Rounded corners */
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph below heading */
+.para {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto 25px auto;
+    padding: 0 15px;
+}
+
+/* Form labels and inputs */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="password"] {
+    width: 100%;
+    /* Full width */
+    padding: 10px 12px;
+    /* Comfortable height */
+    margin-bottom: 10px;
+    /* Space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Submit & Reset Buttons */
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    /* Center buttons */
+}
+
+.form-buttons input[type="submit"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #28a745;
+    /* Green */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form-buttons input[type="submit"]:hover {
+    background-color: #218838;
+    /* Darker green */
+}
+
+.form-buttons input[type="reset"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc3545;
+    /* Red */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form-buttons input[type="reset"]:hover {
+    background-color: #c82333;
+    /* Darker red */
+}
+
+/* Images */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 120px;
+}
+
+/* Contact Info Section */
+.contact-info {
+    text-align: center;
+    max-width: 600px;
+    /* Limit width */
+    margin: 20px auto;
+    /* Center horizontally */
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(145, 77, 31);
+    /* Light transparent blue */
+    box-shadow: 0 4px 8px rgb(44, 124, 55);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.emial {
+    color: #f50808;
+}
+
+.fx {
+    color: red;
+    counter-reset: 5px;
+    content: icon;
+    content: bold;
+}
+
+
+/* Highlight Email and Phone label */
+.contact-info .contact-label {
+    font-weight: bold;
+    color: white;
+    /* Text color */
+    background-color: #003366;
+    /* Dark blue background */
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    background: #3508ff;
+    color: rgb(255, 219, 17);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* BACKGROUND FOR ALL PAGE (NAV & FOOTER EXCLUDED) */
+.page-background {
+    background-image: url("college-full-bg.jpg");
+    /* image name tumhara */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+}
+
+/* Sab content upar se show ho */
+.page-background section,
+.page-background table,
+.page-background form,
+.page-background .logo-section,
+.page-background .table-section,
+.page-background .form-section,
+.page-background .image-gallery,
+.page-background .contact-info {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.page-background {
+    background-image: url("college-full-bg.jpg");
+    background-size: contain;
+    background-position: center top;
+    background-repeat: repeat-y;
+    padding: 40px 20px;
+}
